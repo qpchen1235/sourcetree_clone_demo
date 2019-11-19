@@ -1,0 +1,6 @@
+server:
+  port: 9006
+spring: #服务名称，暂时没有用，讲到springcloud服务调用的时候才会有用。
+  application:
+    name: microservice-moive
+

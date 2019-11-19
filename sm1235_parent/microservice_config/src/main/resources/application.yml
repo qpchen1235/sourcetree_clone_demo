@@ -1,0 +1,23 @@
+server:
+  port: 12000
+#spring :
+#  application:
+#    name: microservice-config
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/qpchen1235/springcloud.git
+spring:
+  application:
+    name: microservice-config
+  profiles:
+    active: subversion
+  cloud:
+    config:
+      server:
+        svn:
+          uri:  //svn仓库地址
+          usename:  //svn账户
+          password: //密码
+          default-label:  //svn分支名称（目录名称）
