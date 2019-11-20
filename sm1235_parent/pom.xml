@@ -17,7 +17,7 @@
         <module>microservice_config</module>
     </modules>
 
-    <!--SprintBoot项目必须导入的parent依赖-->
+    <!-- SprintBoot项目必须导入的parent依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
