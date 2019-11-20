@@ -11,7 +11,7 @@
 
     <artifactId>microservice_user</artifactId>
     <dependencies>
-<!--  mysql的驱动程序-->
+<!--mysql的驱动程序-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
